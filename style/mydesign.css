@@ -31,13 +31,18 @@ a {
 
 /* navbar */
 .navbar-box {
-  max-width: 1200px;
-  margin: 40px auto;
-  /* center + top spacing */
-  height: 29px;
   position: sticky;
+  top: 0;
+  z-index: 1000;
 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 
+  background: white;
+  box-shadow: auto rgba(0, 0, 0, 0.08);
+
+  padding: 10px 0;
 }
 
 .nav-content {
